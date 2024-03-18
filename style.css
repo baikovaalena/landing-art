@@ -1,0 +1,59 @@
+@import url('variables.css');
+
+
+.header{
+    background-color: var(--background);
+    display: flex;
+    align-items: center;
+    padding: 33px 156px;
+}
+
+.header__logo{
+    width: 35px;
+    height: 35px;
+}
+
+.header__name{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: var(--header-text);
+}
+
+.header__content{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-grow: 1;
+}
+
+.header__info{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header__text {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 10px;
+    border-radius: 3px;
+    color: var(--text-info);
+}
+
+.header__text:hover {
+    background-color: #598D66;
+
+}
+
+.header__buy{
+    width: 39px;
+    height: 39px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.header__buy:hover{
+    background-color: #598D66;
+}
