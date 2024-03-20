@@ -1,5 +1,7 @@
 :root{
-    --background:rgba(225, 237, 230);
-    --header-text:#598D66;
-    --text-info:#2C2D35;
+    --white:rgba(225, 237, 230);
+    --green:#598D66;
+    --black:#2C2D35;
+    --grey:#86928B;
+    --lite-green:#D4E8D9;
 }
